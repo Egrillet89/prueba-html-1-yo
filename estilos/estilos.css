@@ -1,0 +1,76 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#7209b7, #09081b);/*para colocar fondo degradado*/
+}
+h1{
+    float: inline-start;
+    padding: 20px;
+    background-color: #8e09b7;
+    border-radius: 10px;
+    text-align: center;
+    border: 15px solid #457b9d;
+    outline: 10px solid #a8dadc;
+    outline-offset: 5px;
+    border-radius: 10px 0 10px 0;
+    margin: 0 20px 0 20px;    
+}
+.contenedor{
+   float: right;
+   margin: 30px auto;
+   padding: 60px;
+   height: 300px;
+   background: rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+}
+
+.contenedor h2{/*para que se aplique unicamenteo a los valores h2 dentro de contenedor*/
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    color: #4cc9f0;
+    text-align: center;
+}
+.contenedor .elemento label{
+    color: rgb(255, 255, 255);
+  
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+.contenedor .elemento input[type="submit"]{ /*de esta forma especificamos que solo modifica el boton*/
+    background-color: #f72585;
+    border: none;
+    letter-spacing: 5px;/*para que de espacio a las letras*/
+    text-transform: uppercase;/*para que coloque en mayuscula*/
+    cursor: pointer;/*para que cambie el cursor a mano al posicionarse sobre el boton*/
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+div{
+    /*background-color: #f1faee;
+    text-align: center;
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 20px;
+    max-width: 300px;
+    outline: 10px solid #a8dadc;
+    outline-offset: 5px;
+    border-radius: 10px 0 10px 0;
+    box-sizing:content-box;*/
+}
+img{
+    position: relative;
+    height: 500px;
+}
